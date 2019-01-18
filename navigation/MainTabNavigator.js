@@ -11,6 +11,9 @@ import Colors from '../constants/Colors';
 
 const HomeStack = createStackNavigator({
   Home: HomeScreen,
+},
+{
+  headerMode: 'none'
 });
 
 HomeStack.navigationOptions = {
